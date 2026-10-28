@@ -1,0 +1,520 @@
+{
+ "run": "20260828_083641",
+ "alpha_005": {
+  "q_median": {
+   "naive": 0.244,
+   "time_block": 0.2896,
+   "country_block": 0.299
+  },
+  "delta_qq_max": 0.055,
+  "boundary_events": [
+   {
+    "country": "LUX",
+    "year": "2007",
+    "e_lo_naive": -0.0454,
+    "e_lo_time": -0.0443,
+    "e_lo_country": -0.0439
+   },
+   {
+    "country": "TUR",
+    "year": "2007",
+    "e_lo_naive": -0.0137,
+    "e_lo_time": -0.0126,
+    "e_lo_country": -0.0122
+   },
+   {
+    "country": "ISL",
+    "year": "2009",
+    "e_lo_naive": -0.0172,
+    "e_lo_time": -0.0413,
+    "e_lo_country": -0.07
+   },
+   {
+    "country": "IDN",
+    "year": "2011",
+    "e_lo_naive": -0.0546,
+    "e_lo_time": -0.0808,
+    "e_lo_country": -0.0913
+   },
+   {
+    "country": "KOR",
+    "year": "2012",
+    "e_lo_naive": -0.0207,
+    "e_lo_time": -0.0454,
+    "e_lo_country": -0.0633
+   },
+   {
+    "country": "CHL",
+    "year": "2013",
+    "e_lo_naive": 0.0443,
+    "e_lo_time": -0.0012,
+    "e_lo_country": -0.0107
+   },
+   {
+    "country": "MEX",
+    "year": "2013",
+    "e_lo_naive": -0.0249,
+    "e_lo_time": -0.0705,
+    "e_lo_country": -0.0799
+   },
+   {
+    "country": "TUR",
+    "year": "2013",
+    "e_lo_naive": 0.0259,
+    "e_lo_time": -0.0196,
+    "e_lo_country": -0.029
+   },
+   {
+    "country": "IDN",
+    "year": "2017",
+    "e_lo_naive": -0.0239,
+    "e_lo_time": -0.1092,
+    "e_lo_country": -0.1371
+   },
+   {
+    "country": "KOR",
+    "year": "2019",
+    "e_lo_naive": -0.0503,
+    "e_lo_time": -0.1204,
+    "e_lo_country": -0.1575
+   }
+  ],
+  "boundary_events_count": 10,
+  "sign_layers": {
+   "up": {
+    "country_block": {
+     "False": 96,
+     "": 5,
+     "True": 1
+    },
+    "naive": {
+     "False": 94,
+     "": 5,
+     "True": 3
+    },
+    "time_block": {
+     "False": 95,
+     "": 5,
+     "True": 2
+    }
+   },
+   "down": {
+    "country_block": {
+     "False": 33
+    },
+    "naive": {
+     "False": 32,
+     "True": 1
+    },
+    "time_block": {
+     "False": 33
+    }
+   }
+  },
+  "adjust_by_country": {
+   "BRA": {
+    "naive": 1,
+    "time_block": 1
+   },
+   "CHL": {
+    "naive": 1
+   },
+   "IDN": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "TUR": {
+    "naive": 1
+   }
+  },
+  "arm_stats": {
+   "country_block": {
+    "n": 135,
+    "na": 5,
+    "adjust": 1,
+    "hold": 129,
+    "n_valid": 130,
+    "release_rate": 0.0077
+   },
+   "naive": {
+    "n": 135,
+    "na": 5,
+    "adjust": 4,
+    "hold": 126,
+    "n_valid": 130,
+    "release_rate": 0.0308
+   },
+   "time_block": {
+    "n": 135,
+    "na": 5,
+    "adjust": 2,
+    "hold": 128,
+    "n_valid": 130,
+    "release_rate": 0.0154
+   }
+  },
+  "adjacent_after_cooldown": 0
+ },
+ "alpha_010": {
+  "q_median": {
+   "naive": 0.20195,
+   "time_block": 0.24325,
+   "country_block": 0.26525
+  },
+  "delta_qq_max": 0.0633,
+  "boundary_events": [
+   {
+    "country": "LUX",
+    "year": "2007",
+    "e_lo_naive": -0.0266,
+    "e_lo_time": -0.0315,
+    "e_lo_country": -0.0303
+   },
+   {
+    "country": "TUR",
+    "year": "2007",
+    "e_lo_naive": 0.0051,
+    "e_lo_time": 0.0002,
+    "e_lo_country": 0.0013
+   },
+   {
+    "country": "BRA",
+    "year": "2008",
+    "e_lo_naive": -0.0596,
+    "e_lo_time": -0.0864,
+    "e_lo_country": -0.0958
+   },
+   {
+    "country": "ISL",
+    "year": "2009",
+    "e_lo_naive": 0.026,
+    "e_lo_time": 0.0048,
+    "e_lo_country": -0.0191
+   },
+   {
+    "country": "IDN",
+    "year": "2011",
+    "e_lo_naive": -0.0083,
+    "e_lo_time": -0.0427,
+    "e_lo_country": -0.0514
+   },
+   {
+    "country": "TUR",
+    "year": "2011",
+    "e_lo_naive": -0.0184,
+    "e_lo_time": -0.0529,
+    "e_lo_country": -0.0615
+   },
+   {
+    "country": "KOR",
+    "year": "2012",
+    "e_lo_naive": 0.0155,
+    "e_lo_time": -0.0239,
+    "e_lo_country": -0.0221
+   },
+   {
+    "country": "MEX",
+    "year": "2013",
+    "e_lo_naive": 0.0171,
+    "e_lo_time": -0.0242,
+    "e_lo_country": -0.0461
+   },
+   {
+    "country": "EST",
+    "year": "2014",
+    "e_lo_naive": -0.0385,
+    "e_lo_time": -0.0941,
+    "e_lo_country": -0.1091
+   },
+   {
+    "country": "KOR",
+    "year": "2015",
+    "e_lo_naive": -0.0331,
+    "e_lo_time": -0.0789,
+    "e_lo_country": -0.1073
+   },
+   {
+    "country": "IDN",
+    "year": "2017",
+    "e_lo_naive": 0.0217,
+    "e_lo_time": -0.0364,
+    "e_lo_country": -0.0796
+   },
+   {
+    "country": "KOR",
+    "year": "2019",
+    "e_lo_naive": -0.005,
+    "e_lo_time": -0.0521,
+    "e_lo_country": -0.0931
+   }
+  ],
+  "boundary_events_count": 12,
+  "sign_layers": {
+   "up": {
+    "country_block": {
+     "False": 93,
+     "": 5,
+     "True": 4
+    },
+    "naive": {
+     "False": 89,
+     "": 5,
+     "True": 8
+    },
+    "time_block": {
+     "False": 92,
+     "": 5,
+     "True": 5
+    }
+   },
+   "down": {
+    "country_block": {
+     "False": 32,
+     "True": 1
+    },
+    "naive": {
+     "False": 32,
+     "True": 1
+    },
+    "time_block": {
+     "False": 32,
+     "True": 1
+    }
+   }
+  },
+  "adjust_by_country": {
+   "BRA": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "CHL": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "IDN": {
+    "naive": 2,
+    "country_block": 1,
+    "time_block": 1
+   },
+   "ISL": {
+    "naive": 1,
+    "time_block": 1
+   },
+   "KOR": {
+    "naive": 1
+   },
+   "MEX": {
+    "naive": 1
+   },
+   "TUR": {
+    "country_block": 2,
+    "naive": 2,
+    "time_block": 2
+   }
+  },
+  "arm_stats": {
+   "country_block": {
+    "n": 135,
+    "na": 5,
+    "adjust": 5,
+    "hold": 125,
+    "n_valid": 130,
+    "release_rate": 0.0385
+   },
+   "naive": {
+    "n": 135,
+    "na": 5,
+    "adjust": 9,
+    "hold": 121,
+    "n_valid": 130,
+    "release_rate": 0.0692
+   },
+   "time_block": {
+    "n": 135,
+    "na": 5,
+    "adjust": 6,
+    "hold": 124,
+    "n_valid": 130,
+    "release_rate": 0.0462
+   }
+  },
+  "adjacent_after_cooldown": 0
+ },
+ "alpha_020": {
+  "q_median": {
+   "naive": 0.1515,
+   "time_block": 0.18445,
+   "country_block": 0.18625
+  },
+  "delta_qq_max": 0.0348,
+  "boundary_events": [
+   {
+    "country": "LUX",
+    "year": "2007",
+    "e_lo_naive": -0.015,
+    "e_lo_time": -0.0113,
+    "e_lo_country": -0.0021
+   },
+   {
+    "country": "TUR",
+    "year": "2007",
+    "e_lo_naive": 0.0167,
+    "e_lo_time": 0.0204,
+    "e_lo_country": 0.0296
+   },
+   {
+    "country": "IDN",
+    "year": "2011",
+    "e_lo_naive": 0.028,
+    "e_lo_time": 0.0188,
+    "e_lo_country": 0.0227
+   },
+   {
+    "country": "TUR",
+    "year": "2011",
+    "e_lo_naive": 0.0179,
+    "e_lo_time": 0.0086,
+    "e_lo_country": 0.0125
+   },
+   {
+    "country": "EST",
+    "year": "2012",
+    "e_lo_naive": -0.0225,
+    "e_lo_time": -0.0532,
+    "e_lo_country": -0.043
+   },
+   {
+    "country": "EST",
+    "year": "2014",
+    "e_lo_naive": 0.0147,
+    "e_lo_time": -0.019,
+    "e_lo_country": -0.0237
+   },
+   {
+    "country": "KOR",
+    "year": "2015",
+    "e_lo_naive": 0.0204,
+    "e_lo_time": -0.0139,
+    "e_lo_country": -0.0226
+   },
+   {
+    "country": "BRA",
+    "year": "2017",
+    "e_lo_naive": -0.0129,
+    "e_lo_time": -0.0588,
+    "e_lo_country": -0.0661
+   },
+   {
+    "country": "KOR",
+    "year": "2017",
+    "e_lo_naive": -0.0304,
+    "e_lo_time": -0.0763,
+    "e_lo_country": -0.0836
+   }
+  ],
+  "boundary_events_count": 9,
+  "sign_layers": {
+   "up": {
+    "country_block": {
+     "False": 87,
+     "": 5,
+     "True": 10
+    },
+    "naive": {
+     "False": 85,
+     "": 5,
+     "True": 12
+    },
+    "time_block": {
+     "False": 87,
+     "": 5,
+     "True": 10
+    }
+   },
+   "down": {
+    "country_block": {
+     "False": 31,
+     "True": 2
+    },
+    "naive": {
+     "False": 31,
+     "True": 2
+    },
+    "time_block": {
+     "False": 31,
+     "True": 2
+    }
+   }
+  },
+  "adjust_by_country": {
+   "BRA": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "CHL": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "EST": {
+    "naive": 1
+   },
+   "IDN": {
+    "country_block": 3,
+    "naive": 3,
+    "time_block": 3
+   },
+   "ISL": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "KOR": {
+    "country_block": 2,
+    "naive": 3,
+    "time_block": 2
+   },
+   "MEX": {
+    "country_block": 1,
+    "naive": 1,
+    "time_block": 1
+   },
+   "TUR": {
+    "country_block": 3,
+    "naive": 3,
+    "time_block": 3
+   }
+  },
+  "arm_stats": {
+   "country_block": {
+    "n": 135,
+    "na": 5,
+    "adjust": 12,
+    "hold": 118,
+    "n_valid": 130,
+    "release_rate": 0.0923
+   },
+   "naive": {
+    "n": 135,
+    "na": 5,
+    "adjust": 14,
+    "hold": 116,
+    "n_valid": 130,
+    "release_rate": 0.1077
+   },
+   "time_block": {
+    "n": 135,
+    "na": 5,
+    "adjust": 12,
+    "hold": 118,
+    "n_valid": 130,
+    "release_rate": 0.0923
+   }
+  },
+  "adjacent_after_cooldown": 0
+ }
+}
