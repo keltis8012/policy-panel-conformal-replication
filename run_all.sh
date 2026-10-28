@@ -4,7 +4,8 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 echo "[0/5] unpacking data"
-[ -f data/oecd_eps_1990_2020.csv ] || gunzip -k data/*.csv.gz
+mkdir -p 02_datasets/raw 02_datasets/processed
+for f in data/*.csv.gz; do [ -f "02_datasets/raw/$(basename "$f" .gz)" ] || gunzip -c "$f" > "02_datasets/raw/$(basename "$f" .gz)"; done
 
 echo "[1/5] main decision pipeline  -> Tables 4,5,8,9 ; Figures 2,3,6,7"
 python code/e01b_empirical.py
